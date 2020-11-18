@@ -1,0 +1,70 @@
+2020-11-17 21:25:33 INFO  Driver:44 - Browser :: chrome
+2020-11-17 21:25:37 INFO  WebDriverManager:573 - Using chromedriver 86.0.4240.22 (since Chrome 86 is installed in your machine)
+2020-11-17 21:25:37 INFO  WebDriverManager:631 - Exporting webdriver.chrome.driver as /Users/sevginhekimoglu/.m2/repository/webdriver/chromedriver/mac64/86.0.4240.22/chromedriver
+2020-11-17 21:25:41 INFO  TrendsMainPage:18 - Word: Selenium WebDriver
+2020-11-17 21:27:20 INFO  Driver:44 - Browser :: chrome
+2020-11-17 21:27:20 INFO  WebDriverManager:573 - Using chromedriver 86.0.4240.22 (since Chrome 86 is installed in your machine)
+2020-11-17 21:27:20 INFO  WebDriverManager:631 - Exporting webdriver.chrome.driver as /Users/sevginhekimoglu/.m2/repository/webdriver/chromedriver/mac64/86.0.4240.22/chromedriver
+2020-11-17 21:27:23 INFO  TrendsMainPage:19 - Word: Selenium WebDriver
+2020-11-17 21:43:31 INFO  Driver:44 - Browser :: chrome
+2020-11-17 21:43:31 INFO  WebDriverManager:573 - Using chromedriver 86.0.4240.22 (since Chrome 86 is installed in your machine)
+2020-11-17 21:43:31 INFO  WebDriverManager:631 - Exporting webdriver.chrome.driver as /Users/sevginhekimoglu/.m2/repository/webdriver/chromedriver/mac64/86.0.4240.22/chromedriver
+2020-11-17 21:43:34 INFO  TrendsMainPage:19 - Word: Selenium WebDriver
+2020-11-17 21:44:55 INFO  Driver:44 - Browser :: chrome
+2020-11-17 21:44:56 INFO  WebDriverManager:573 - Using chromedriver 86.0.4240.22 (since Chrome 86 is installed in your machine)
+2020-11-17 21:44:56 INFO  WebDriverManager:631 - Exporting webdriver.chrome.driver as /Users/sevginhekimoglu/.m2/repository/webdriver/chromedriver/mac64/86.0.4240.22/chromedriver
+2020-11-17 21:44:59 INFO  TrendsMainPage:19 - Word: Selenium WebDriver
+2020-11-17 21:44:59 INFO  TrendsExplorePage:19 - Word: Javascript WebDriverIO
+2020-11-17 22:00:16 INFO  Driver:44 - Browser :: chrome
+2020-11-17 22:00:16 INFO  WebDriverManager:573 - Using chromedriver 86.0.4240.22 (since Chrome 86 is installed in your machine)
+2020-11-17 22:00:16 INFO  WebDriverManager:631 - Exporting webdriver.chrome.driver as /Users/sevginhekimoglu/.m2/repository/webdriver/chromedriver/mac64/86.0.4240.22/chromedriver
+2020-11-17 22:00:19 INFO  TrendsMainPage:19 - Word: Selenium WebDriver
+2020-11-17 22:00:20 INFO  TrendsStepDefinitions:32 - Verify that title contains Explore
+2020-11-17 22:02:12 INFO  Driver:44 - Browser :: chrome
+2020-11-17 22:02:12 INFO  WebDriverManager:573 - Using chromedriver 86.0.4240.22 (since Chrome 86 is installed in your machine)
+2020-11-17 22:02:12 INFO  WebDriverManager:631 - Exporting webdriver.chrome.driver as /Users/sevginhekimoglu/.m2/repository/webdriver/chromedriver/mac64/86.0.4240.22/chromedriver
+2020-11-17 22:02:15 INFO  TrendsMainPage:19 - Word: Selenium WebDriver
+2020-11-17 22:02:16 INFO  TrendsStepDefinitions:32 - Verify that title contains Explore
+2020-11-17 22:02:16 INFO  TrendsExplorePage:25 - Word: Javascript WebDriverIO
+2020-11-17 22:03:18 INFO  Driver:44 - Browser :: chrome
+2020-11-17 22:03:18 INFO  WebDriverManager:573 - Using chromedriver 86.0.4240.22 (since Chrome 86 is installed in your machine)
+2020-11-17 22:03:18 INFO  WebDriverManager:631 - Exporting webdriver.chrome.driver as /Users/sevginhekimoglu/.m2/repository/webdriver/chromedriver/mac64/86.0.4240.22/chromedriver
+2020-11-17 22:03:21 INFO  TrendsMainPage:19 - Word: Selenium WebDriver
+2020-11-17 22:03:22 INFO  TrendsStepDefinitions:32 - Verify that title contains Explore
+2020-11-17 22:03:22 INFO  TrendsExplorePage:25 - Word: Javascript WebDriverIO
+2020-11-17 22:04:20 INFO  Driver:44 - Browser :: chrome
+2020-11-17 22:04:20 INFO  WebDriverManager:573 - Using chromedriver 86.0.4240.22 (since Chrome 86 is installed in your machine)
+2020-11-17 22:04:20 INFO  WebDriverManager:631 - Exporting webdriver.chrome.driver as /Users/sevginhekimoglu/.m2/repository/webdriver/chromedriver/mac64/86.0.4240.22/chromedriver
+2020-11-17 22:04:24 INFO  TrendsMainPage:19 - Word: Selenium WebDriver
+2020-11-17 22:04:24 INFO  TrendsStepDefinitions:32 - Verify that title contains Explore
+2020-11-17 22:04:24 INFO  TrendsExplorePage:27 - Word: Javascript WebDriverIO
+2020-11-17 22:07:31 INFO  Driver:44 - Browser :: chrome
+2020-11-17 22:07:32 INFO  WebDriverManager:573 - Using chromedriver 86.0.4240.22 (since Chrome 86 is installed in your machine)
+2020-11-17 22:07:32 INFO  WebDriverManager:631 - Exporting webdriver.chrome.driver as /Users/sevginhekimoglu/.m2/repository/webdriver/chromedriver/mac64/86.0.4240.22/chromedriver
+2020-11-17 22:07:34 INFO  TrendsMainPage:19 - Word: Selenium WebDriver
+2020-11-17 22:07:35 INFO  TrendsStepDefinitions:32 - Verify that title contains Explore
+2020-11-17 22:07:35 INFO  TrendsExplorePage:27 - Word: Javascript WebDriverIO
+2020-11-17 22:08:07 INFO  Driver:44 - Browser :: chrome
+2020-11-17 22:08:07 INFO  WebDriverManager:573 - Using chromedriver 86.0.4240.22 (since Chrome 86 is installed in your machine)
+2020-11-17 22:08:07 INFO  WebDriverManager:631 - Exporting webdriver.chrome.driver as /Users/sevginhekimoglu/.m2/repository/webdriver/chromedriver/mac64/86.0.4240.22/chromedriver
+2020-11-17 22:08:10 INFO  TrendsMainPage:19 - Word: Selenium WebDriver
+2020-11-17 22:08:10 INFO  TrendsStepDefinitions:32 - Verify that title contains Explore
+2020-11-17 22:08:10 INFO  TrendsExplorePage:27 - Word: Javascript WebDriverIO
+2020-11-17 22:10:22 INFO  Driver:44 - Browser :: chrome
+2020-11-17 22:10:22 INFO  WebDriverManager:573 - Using chromedriver 86.0.4240.22 (since Chrome 86 is installed in your machine)
+2020-11-17 22:10:22 INFO  WebDriverManager:631 - Exporting webdriver.chrome.driver as /Users/sevginhekimoglu/.m2/repository/webdriver/chromedriver/mac64/86.0.4240.22/chromedriver
+2020-11-17 22:10:25 INFO  TrendsMainPage:19 - Word: Selenium WebDriver
+2020-11-17 22:10:25 INFO  TrendsStepDefinitions:32 - Verify that title contains Explore
+2020-11-17 22:10:25 INFO  TrendsExplorePage:29 - Word: Javascript WebDriverIO
+2020-11-17 22:12:34 INFO  Driver:44 - Browser :: chrome
+2020-11-17 22:12:34 INFO  WebDriverManager:573 - Using chromedriver 86.0.4240.22 (since Chrome 86 is installed in your machine)
+2020-11-17 22:12:34 INFO  WebDriverManager:631 - Exporting webdriver.chrome.driver as /Users/sevginhekimoglu/.m2/repository/webdriver/chromedriver/mac64/86.0.4240.22/chromedriver
+2020-11-17 22:12:37 INFO  TrendsMainPage:19 - Word: Selenium WebDriver
+2020-11-17 22:12:38 INFO  TrendsStepDefinitions:32 - Verify that title contains Explore
+2020-11-17 22:12:38 INFO  TrendsExplorePage:29 - Word: Javascript WebDriverIO
+2020-11-17 22:13:39 INFO  Driver:44 - Browser :: chrome
+2020-11-17 22:13:39 INFO  WebDriverManager:573 - Using chromedriver 86.0.4240.22 (since Chrome 86 is installed in your machine)
+2020-11-17 22:13:39 INFO  WebDriverManager:631 - Exporting webdriver.chrome.driver as /Users/sevginhekimoglu/.m2/repository/webdriver/chromedriver/mac64/86.0.4240.22/chromedriver
+2020-11-17 22:13:42 INFO  TrendsMainPage:19 - Word: Selenium WebDriver
+2020-11-17 22:13:43 INFO  TrendsStepDefinitions:32 - Verify that title contains Explore
+2020-11-17 22:13:43 INFO  TrendsExplorePage:29 - Word: Javascript WebDriverIO
