@@ -403,3 +403,25 @@
 2020-11-18 23:36:17 INFO  TrendsStepDefinitions:47 - Verify page is Compare
 2020-11-18 23:36:17 INFO  TrendsComparePage:34 - Word: New York
 2020-11-18 23:36:18 INFO  TrendsComparePage:45 - Selecting time as a Past 90 Days 
+2020-11-18 23:41:17 INFO  Driver:44 - Browser :: chrome
+2020-11-18 23:41:17 INFO  WebDriverManager:573 - Using chromedriver 86.0.4240.22 (since Chrome 86 is installed in your machine)
+2020-11-18 23:41:17 INFO  WebDriverManager:631 - Exporting webdriver.chrome.driver as /Users/sevginhekimoglu/.m2/repository/webdriver/chromedriver/mac64/86.0.4240.22/chromedriver
+2020-11-18 23:41:20 INFO  TrendsMainPage:19 - Word: Selenium WebDriver
+2020-11-18 23:41:20 INFO  TrendsStepDefinitions:34 - Verify that title contains Explore
+2020-11-18 23:41:21 INFO  TrendsExplorePage:30 - Word: Javascript WebDriverIO
+2020-11-18 23:41:22 INFO  TrendsStepDefinitions:47 - Verify page is Compare
+2020-11-18 23:41:22 INFO  TrendsComparePage:34 - Word: New York
+2020-11-18 23:41:23 INFO  TrendsComparePage:45 - Selecting time as a Past 90 Days 
+2020-11-18 23:47:28 INFO  Hooks:15 - ::: STARTING AUTOMATION :::
+2020-11-18 23:47:28 INFO  Hooks:16 - Test setup
+2020-11-18 23:47:28 INFO  Driver:44 - Browser :: chrome
+2020-11-18 23:47:28 INFO  WebDriverManager:573 - Using chromedriver 86.0.4240.22 (since Chrome 86 is installed in your machine)
+2020-11-18 23:47:28 INFO  WebDriverManager:631 - Exporting webdriver.chrome.driver as /Users/sevginhekimoglu/.m2/repository/webdriver/chromedriver/mac64/86.0.4240.22/chromedriver
+2020-11-18 23:47:31 INFO  TrendsMainPage:19 - Word: Selenium WebDriver
+2020-11-18 23:47:31 INFO  TrendsStepDefinitions:34 - Verify that title contains Explore
+2020-11-18 23:47:32 INFO  TrendsExplorePage:30 - Word: Javascript WebDriverIO
+2020-11-18 23:47:33 INFO  TrendsStepDefinitions:47 - Verify page is Compare
+2020-11-18 23:47:33 INFO  TrendsComparePage:34 - Word: New York
+2020-11-18 23:47:34 INFO  TrendsComparePage:45 - Selecting time as a Past 90 Days 
+2020-11-18 23:47:44 INFO  Hooks:33 - Taking a screenshot
+2020-11-18 23:47:45 INFO  Hooks:38 - ::: Ending automation :::

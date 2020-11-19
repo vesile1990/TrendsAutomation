@@ -1,24 +1,30 @@
 package google.com.trends.step_definitions;
 
-import google.com.trends.utilities.ConfigurationReader;
 import google.com.trends.utilities.Driver;
+import io.cucumber.java.After;
+import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
 import org.apache.log4j.Logger;
-import org.junit.After;
-import org.junit.Before;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 
 public class Hooks {
     private final static Logger logger=Logger.getLogger(Hooks.class);
-
-    @Before
-    public void setup(){
-        logger.info("::: Starting Automation");
-        logger.info("Browser type: "+ ConfigurationReader.getProperty("browser"));
-        logger.info("URL: "+ ConfigurationReader.getProperty("url"));
+    @Before(order = 2)
+    public void setup() {
+        logger.info("::: STARTING AUTOMATION :::");
+        logger.info("Test setup");
         Driver.getDriver().manage().window().maximize();
+    }
 
+    @Before(value = "@driver", order = 1)
+    public void specialSetup() {
+        logger.info("Setup for driver only");
+    }
+
+    @After("@driver")
+    public void specialTearDown() {
+        logger.info("Tear down for driver only");
     }
 
     @After
