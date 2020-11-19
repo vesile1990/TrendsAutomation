@@ -19,4 +19,5 @@ public class TrendsMainPage extends BasePage {
         logger.info("Word: "+ ConfigurationReader.getProperty("firstWord"));
         wait.until(ExpectedConditions.visibilityOf(searchButton)).sendKeys(word, Keys.ENTER);
     }
+
 }

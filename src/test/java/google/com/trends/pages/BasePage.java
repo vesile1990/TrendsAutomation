@@ -1,5 +1,6 @@
 package google.com.trends.pages;
 
+import google.com.trends.utilities.BrowserUtils;
 import google.com.trends.utilities.Driver;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
@@ -19,6 +20,7 @@ public abstract class BasePage {
 
     private  final static Logger logger=Logger.getLogger(BasePage.class);
     protected WebDriverWait wait=new WebDriverWait(Driver.getDriver(),10);
+    BrowserUtils browserUtils=new BrowserUtils();
 
     public BasePage(){
         PageFactory.initElements(Driver.getDriver(),this);

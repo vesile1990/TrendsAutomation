@@ -1,5 +1,6 @@
 package google.com.trends.step_definitions;
 
+import google.com.trends.pages.TrendsComparePage;
 import google.com.trends.pages.TrendsExplorePage;
 import google.com.trends.pages.TrendsMainPage;
 import google.com.trends.utilities.ConfigurationReader;
@@ -15,6 +16,7 @@ public class TrendsStepDefinitions {
     private final static Logger logger=Logger.getLogger(TrendsStepDefinitions.class);
     public TrendsMainPage trendsMainPage=new TrendsMainPage();
     public TrendsExplorePage trendsExplorePage=new TrendsExplorePage();
+    public TrendsComparePage trendsComparePage=new TrendsComparePage();
 
     @Given("user is on the main page")
     public void userIsOnTheMAinPage() {
@@ -30,6 +32,7 @@ public class TrendsStepDefinitions {
     @Then("user navigates to explore page")
     public void userNavigatesToExplorePage() {
         logger.info("Verify that title contains Explore");
+        trendsExplorePage.getPageName();
         Assert.assertTrue( Driver.getDriver().getTitle().contains("Explore"));
 
     }
@@ -39,12 +42,18 @@ public class TrendsStepDefinitions {
         trendsExplorePage.compareItem(ConfigurationReader.getProperty("compareWord"));
     }
 
-    @Then("user navigates to compare page")
+    @Then("user should be on compare page")
     public void userNavigatesToComparePage() {
+        logger.info("Verify page is Compare");
+        trendsComparePage.getPageName();
+        Assert.assertTrue( trendsComparePage.toString().contains("Compare"));
+
     }
 
     @And("user select filters")
     public void userSelectFilters() {
+        trendsComparePage.selectLocation(ConfigurationReader.getProperty("location"));
+        trendsComparePage.selectTime();
     }
 
     @And("user select compare by metro")
