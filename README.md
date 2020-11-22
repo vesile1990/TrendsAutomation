@@ -8,8 +8,6 @@ Support for all major web browsers (Windows + MacOS)
 Support for reporting (using Extent Reports)
 Support for capturing screenshots
 Utilities class which has resuable methods that help perform common web actions.
-Support for Logging
-A feature file to test a basic test flow for the website - https://twhyderabad.github.io/demo_site/ has been included. This is only to demonstrate that the framework supports testing web applications such as the one mentioned.
 
 Order of the flow is as follows (file names as in the project are mentioned below)
 
