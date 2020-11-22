@@ -52,7 +52,7 @@ public class Driver {
 
                 case "remote-chrome":
                     try {
-                        URL url=new URL("http://34.229.100.42:4444/wd/hub");
+                        URL url=new URL("");//Selenium Grid url needs to be assigned here
                         ChromeOptions chromeOptions1=new ChromeOptions();
                         driverPool.set(new RemoteWebDriver(url,chromeOptions1));
                     } catch (MalformedURLException e) {

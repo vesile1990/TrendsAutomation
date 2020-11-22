@@ -1,5 +1,6 @@
 package google.com.trends.pages;
 
+import google.com.trends.utilities.BrowserUtilities;
 import google.com.trends.utilities.ConfigurationReader;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.Keys;
@@ -22,7 +23,7 @@ public class TrendsComparePage extends BasePage {
     @FindBy(xpath = "//div[@id='compare-pickers-wrapper']//custom-date-picker")
     private WebElement timeDropDownClick;
 
-    @FindBy(id = "select_option_19")
+    @FindBy(xpath = "//div[contains(text(),'Past 90 days')]")
     private WebElement timeDropDown;
 
 
@@ -41,11 +42,25 @@ public class TrendsComparePage extends BasePage {
         wait.until(ExpectedConditions.visibilityOf(searchLocation)).sendKeys(Keys.ENTER);
 
     }
-    public void selectTime(){
+    public void  selectTime(){
         logger.info("Selecting time as a Past 90 Days ");
+//        try {
+//            Thread.sleep(600);
+//        } catch (Exception e) {
+//            e.printStackTrace();
+//        }
+        browserUtils.wait(1);
+
         wait.until(ExpectedConditions.visibilityOf(timeDropDownClick)).click();
 
-        wait.until(ExpectedConditions.visibilityOf(timeDropDown)).sendKeys(Keys.ENTER);
+//        try {
+//            Thread.sleep(1000);
+//        } catch (Exception e) {
+//            e.printStackTrace();
+//        }
+        wait.until(ExpectedConditions.visibilityOf(timeDropDown)).click();
+
+
 
 
     }
