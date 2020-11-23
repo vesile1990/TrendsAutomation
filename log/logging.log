@@ -850,3 +850,15 @@
 2020-11-23 17:04:55 INFO  TrendsComparePage:35 - Word: New York
 2020-11-23 17:04:55 INFO  TrendsComparePage:46 - Selecting time as a Past 90 Days 
 2020-11-23 17:04:57 INFO  Hooks:38 - ::: Ending automation :::
+2020-11-23 17:37:37 INFO  Hooks:15 - ::: STARTING AUTOMATION :::
+2020-11-23 17:37:37 INFO  Hooks:16 - Test setup
+2020-11-23 17:37:37 INFO  Driver:44 - Browser :: chrome
+2020-11-23 17:37:37 INFO  WebDriverManager:573 - Using chromedriver 86.0.4240.22 (since Chrome 86 is installed in your machine)
+2020-11-23 17:37:37 INFO  WebDriverManager:631 - Exporting webdriver.chrome.driver as /Users/sevginhekimoglu/.m2/repository/webdriver/chromedriver/mac64/86.0.4240.22/chromedriver
+2020-11-23 17:37:40 INFO  TrendsMainPage:19 - Word: Selenium WebDriver
+2020-11-23 17:37:41 INFO  TrendsStepDefinitions:34 - Verify that title contains Explore
+2020-11-23 17:37:41 INFO  TrendsExplorePage:30 - Word: Javascript WebDriverIO
+2020-11-23 17:37:43 INFO  TrendsStepDefinitions:47 - Verify page is Compare
+2020-11-23 17:37:43 INFO  TrendsComparePage:35 - Word: New York
+2020-11-23 17:37:43 INFO  TrendsComparePage:46 - Selecting time as a Past 90 Days 
+2020-11-23 17:37:45 INFO  Hooks:38 - ::: Ending automation :::
