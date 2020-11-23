@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: google.com.trends.runner.FailedRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in google.com.trends.runner.FailedRunner
+google.com.trends.runner.FailedRunner.initializationError  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.IllegalArgumentException: The glue path contained invalid identifiers google.com.trends/step_definitions
+

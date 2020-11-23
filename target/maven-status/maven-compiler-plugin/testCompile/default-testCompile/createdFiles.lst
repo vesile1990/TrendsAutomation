@@ -1,0 +1,11 @@
+google/com/trends/pages/TrendsMainPage.class
+google/com/trends/utilities/BrowserUtilities.class
+google/com/trends/pages/TrendsExplorePage.class
+google/com/trends/pages/TrendsComparePage.class
+google/com/trends/utilities/ConfigurationReader.class
+google/com/trends/runner/FailedRunner.class
+google/com/trends/runner/TestRunner.class
+google/com/trends/pages/BasePage.class
+google/com/trends/step_definitions/TrendsStepDefinitions.class
+google/com/trends/step_definitions/Hooks.class
+google/com/trends/utilities/Driver.class

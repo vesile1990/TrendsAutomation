@@ -1,0 +1,168 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-11-23T22:04:47.991Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2852000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "google.com.trends.step_definitions.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "User should be able compare \"Selenium WebDriver\" and \"Javascript WebDriverIO\" from compare page.",
+        "description": "",
+        "id": "as-a-user-i-should-be-able-to-compare-two-elements-in-trends.google;user-should-be-able-compare-\"selenium-webdriver\"-and-\"javascript-webdriverio\"-from-compare-page.",
+        "after": [
+          {
+            "result": {
+              "duration": 93000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "google.com.trends.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1755000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on the main page",
+            "match": {
+              "location": "google.com.trends.step_definitions.TrendsStepDefinitions.userIsOnTheMAinPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 699000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enter \"Selenium WebDriver\" on search box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Selenium WebDriver\"",
+                  "offset": 11
+                }
+              ],
+              "location": "google.com.trends.step_definitions.TrendsStepDefinitions.userEnterOnSearchBox(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 34000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user navigates to explore page",
+            "match": {
+              "location": "google.com.trends.step_definitions.TrendsStepDefinitions.userNavigatesToExplorePage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1719000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enter \"Javascript WebDriverIO\" to the +Compare field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Javascript WebDriverIO\"",
+                  "offset": 11
+                }
+              ],
+              "location": "google.com.trends.step_definitions.TrendsStepDefinitions.userEnterToTheCompareField(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 34000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user should be on compare page",
+            "match": {
+              "location": "google.com.trends.step_definitions.TrendsStepDefinitions.userNavigatesToComparePage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2441000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user select filters",
+            "match": {
+              "location": "google.com.trends.step_definitions.TrendsStepDefinitions.userSelectFilters()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user select compare by metro",
+            "match": {
+              "location": "google.com.trends.step_definitions.TrendsStepDefinitions.userSelectCompareByMetro()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user verify percentual ratio",
+            "match": {
+              "location": "google.com.trends.step_definitions.TrendsStepDefinitions.userVerifyPercentualRatio()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@trends"
+          }
+        ]
+      }
+    ],
+    "name": "As a user,I should be able to compare two elements in trends.google",
+    "description": "",
+    "id": "as-a-user-i-should-be-able-to-compare-two-elements-in-trends.google",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/TrendsSearch.feature",
+    "tags": [
+      {
+        "name": "@trends",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
